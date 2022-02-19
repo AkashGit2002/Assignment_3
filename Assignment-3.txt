@@ -1,0 +1,22 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+plt.plot(x,y)
+y=np.sin(x)
+y
+
+plt.plot(x,y)
+plt.xlabel('Angle')
+plt.ylabel('Sine value')
+plt.title('Sinusoid Wave')
+plt.show()
+
+
+y=np.linspace([1,2,3,4,5])
+y=x**2
+plt.plot(x,y)
+plt.show()
+
+plt.hist(df['feature'])
+plt.show()
